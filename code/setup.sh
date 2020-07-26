@@ -16,5 +16,5 @@ sudo python setup.py install
 
 #setup cron for @reboot
 sudo rm /var/spool/cron/crontabs/root
-sudo cp ~/pingPongBallClock/code/crontabScript /var/spool/cron/crontabs/root
+sudo cp /home/pi/pingPongBallClock/code/crontabScript /var/spool/cron/crontabs/root
 sudo chmod 600 /var/spool/cron/crontabs/root
